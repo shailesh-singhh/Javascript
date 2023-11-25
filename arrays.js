@@ -15,9 +15,17 @@
 
 ///  Code to find average of elements of array --  //
 
-let marks = [85 ,97,44,37 ,76 ,60 ];
-let total = 0;
-for(let i = 0 ; i < marks.length ;i++){
-    total = total + marks[i];
-}
-console.log(" The average is :" , total/marks.length);
+//let marks = [85 ,97,44,37 ,76 ,60 ];
+//let total = 0;
+//for(let i = 0 ; i < marks.length ;i++){
+//    total = total + marks[i];
+//}
+//console.log(" The average is :" , total/marks.length);
+  
+
+let item =[250 ,645 ,300 ,900 ,50 ];
+for(let val of item){
+    let offer = val/10;
+    val = val - offer;
+    console.log(val);
+};
