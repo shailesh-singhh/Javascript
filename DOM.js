@@ -9,3 +9,5 @@ console.log(para);
 
 let para2 = document.getElementsByClassName("p");
 console.log(para2);
+
+let elements = document.querySelector("p");
